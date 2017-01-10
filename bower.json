@@ -1,0 +1,20 @@
+{
+  "name": "konckout",
+  "authors": [
+    "caixiaowei08 <caixiaowei08@163.com>"
+  ],
+  "description": "konckout_demo",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "knockout": "^3.4.1"
+  }
+}
