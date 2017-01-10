@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    var myObservableArray = ko.observableArray();// Initially an empty array
+    myObservableArray().push('Some value');// Adds the value and notifies observers
+    myObservableArray().push('Bear');
+    myObservableArray().push('Hippo');
+    myObservableArray().push('Unknown');
+    // This observable array initially contains three objects
+    var anotherObservableArray = ko.observableArray([
+        { name: "Bungle", type: "Bear" },
+        { name: "George", type: "Hippo" },
+        { name: "Zippy", type: "Unknown" }
+    ]);
+    alert('The length of the array is ' + myObservableArray().length);
+    alert('The first element is ' + myObservableArray()[0]); // get each value from array
+    alert('The index of is ' + myObservableArray.indexOf('Hippo'));
+    console.log('The slice is ' + myObservableArray.slice(2));
+
+
+</script>
+</html>
