@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<label><input type="checkbox" data-bind="checked: displayMessage" /> Display message</label>
+<div data-bind="if: displayMessage">Here is a message. Astonishing.</div>
+<script>
+    ko.applyBindings({
+        displayMessage: ko.observable(false)
+    });
+</script>
+</body>
+</html>

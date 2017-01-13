@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91ca380-14a8-40a5-9b7f-0d25260db522" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/binding/attr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/binding/css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/binding/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/binding/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/controlFlow/foreach.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/Observables/binding_visible.html" afterPath="$PROJECT_DIR$/demo/Observables/binding/visible.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/Observables/binding/text.html" afterPath="$PROJECT_DIR$/demo/binding/text.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/Observables/binding/text2.html" afterPath="$PROJECT_DIR$/demo/binding/text2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/Observables/binding/visible.html" afterPath="$PROJECT_DIR$/demo/binding/visible.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,61 +32,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="visible.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/Observables/binding/visible.html">
+        <entry file="file://$PROJECT_DIR$/demo/binding/visible.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="79" />
+            <state relative-caret-position="195">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="text.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/Observables/binding/text.html">
+        <entry file="file://$PROJECT_DIR$/demo/binding/text.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="79" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/Observables/binding/text2.html">
+      <file leaf-file-name="text2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/binding/text2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+            <state relative-caret-position="195">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/Observables/demo03.html">
+      <file leaf-file-name="style.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/binding/style.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="117">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/Observables/demo01.html">
+      <file leaf-file-name="foreach.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foreach2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foreach3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foreach4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foreach5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="if.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/controlFlow/if.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -111,6 +158,23 @@
         <option value="$PROJECT_DIR$/demo/Observables/binding/visible.html" />
         <option value="$PROJECT_DIR$/demo/Observables/binding/text.html" />
         <option value="$PROJECT_DIR$/demo/Observables/binding/text2.html" />
+        <option value="$PROJECT_DIR$/demo/Observables/binding/html.html" />
+        <option value="$PROJECT_DIR$/demo/Observables/binding/css.html" />
+        <option value="$PROJECT_DIR$/demo/Observables/binding/style.html" />
+        <option value="$PROJECT_DIR$/demo/Observables/binding/attr.html" />
+        <option value="$PROJECT_DIR$/demo/binding/attr.html" />
+        <option value="$PROJECT_DIR$/demo/binding/css.html" />
+        <option value="$PROJECT_DIR$/demo/binding/html.html" />
+        <option value="$PROJECT_DIR$/demo/binding/style.html" />
+        <option value="$PROJECT_DIR$/demo/binding/text.html" />
+        <option value="$PROJECT_DIR$/demo/binding/text2.html" />
+        <option value="$PROJECT_DIR$/demo/binding/visible.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/foreach.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/foreach2.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/foreach3.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/foreach4.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/foreach5.html" />
+        <option value="$PROJECT_DIR$/demo/controlFlow/if.html" />
       </list>
     </option>
   </component>
@@ -184,10 +248,6 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Observables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -203,7 +263,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Observables" />
+              <option name="myItemId" value="controlFlow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="knockoutjs_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="knockoutjs_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -226,6 +300,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\js\knockoutjs_demo\demo" />
       <recent name="F:\code\js\knockoutjs_demo\demo\Observables\binding" />
     </key>
   </component>
@@ -300,18 +375,18 @@
       <workItem from="1484065575644" duration="3403000" />
       <workItem from="1484306880754" duration="214000" />
       <workItem from="1484307883788" duration="496000" />
-      <workItem from="1484308444696" duration="1953000" />
+      <workItem from="1484308444696" duration="4404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6066000" />
+    <option name="totallyTimeSpent" value="8517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1800948" sideWeight="0.4955947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123617694" sideWeight="0.4955947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Observables/binding/visible.html">
+    <entry file="file://$PROJECT_DIR$/demo/binding/visible.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -477,14 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Observables/demo01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/Observables/demo03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -493,26 +560,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Observables/binding/visible.html">
+    <entry file="file://$PROJECT_DIR$/demo/Observables/demo01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="79" />
+        <state relative-caret-position="624">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Observables/binding/text.html">
+    <entry file="file://$PROJECT_DIR$/demo/binding/attr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="79" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Observables/binding/text2.html">
+    <entry file="file://$PROJECT_DIR$/demo/binding/css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+        <state relative-caret-position="78">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/binding/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/binding/style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/binding/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/binding/text2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/binding/visible.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/foreach5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/controlFlow/if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
