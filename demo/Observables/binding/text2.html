@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+The item is <span data-bind="text: priceRating"></span> today.
+The item is <span data-bind="text: price() > 50 ? 'expensive' : 'affordable'"></span> today.
+The item is <span data-bind="text: price() > 50 ? 'expensive' : 'affordable'"></span> today.
+
+<script type="text/javascript">
+    var viewModel = {
+        price: ko.observable(24.95)
+    };
+    viewModel.myMessage("<i>Hello, world!</i>");
+    viewModel.priceRating = ko.pureComputed(function() {
+        return this.price() > 50 ? "expensive" : "affordable";
+    }, viewModel);
+    ko.applyBindings(viewModel);
+</script>
+
+</body>
+</html>
