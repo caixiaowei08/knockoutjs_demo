@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<p>Send me spam: <input type="checkbox" data-bind="checked: wantsSpam" /></p>
+
+<script type="text/javascript">
+    var viewModel = {
+        wantsSpam: ko.observable(true) // Initially checked
+    };
+
+    // ... then later ...
+    viewModel.wantsSpam(false); // The checkbox becomes unchecked
+    ko.applyBindings(viewModel)
+</script>
+</body>
+</html>

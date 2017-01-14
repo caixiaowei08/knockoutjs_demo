@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<ul data-bind="foreach: places">
+    <li>
+        <span data-bind="text: $data"></span>
+        <button data-bind="click: $parent.removePlace">Remove</button>
+    </li>
+</ul>
+
+<script type="text/javascript">
+    function MyViewModel() {
+        var self = this;
+        console.log(self);
+        self.places = ko.observableArray(['London', 'Paris', 'Tokyo']);
+
+        // The current item will be passed as the first parameter, so we know which place to remove
+        self.removePlace = function(data) {
+            console.log(data);
+            self.places.remove(data);
+        }
+    }
+    ko.applyBindings(new MyViewModel());
+</script>
+
+</body>
+</html>

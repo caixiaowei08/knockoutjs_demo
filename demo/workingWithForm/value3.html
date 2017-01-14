@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<!-- Two-way binding. Populates textbox; syncs both ways. -->
+<p>First value: <input data-bind="value: firstValue" /></p>
+
+<!-- One-way binding. Populates textbox; syncs only from textbox to model. -->
+<p>Second value: <input data-bind="value: secondValue" /></p>
+
+<!-- No binding. Populates textbox, but doesn't react to any changes. -->
+<p>Third value: <input data-bind="value: secondValue.length > 8" /></p>
+
+<!-- No binding. Populates textbox, but doesn't react to any changes. -->
+<p>four value: <input data-bind="value: firstValue().length > 8" /></p>
+
+<script type="text/javascript">
+    var viewModel = {
+        firstValue: ko.observable("hello"), // Observable
+        secondValue: "22342343"        // Not observable
+    };
+    ko.applyBindings(viewModel)
+</script>
+</body>
+</html>

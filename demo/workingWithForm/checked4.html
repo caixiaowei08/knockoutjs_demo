@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<!-- ko foreach: items -->
+<input type="checkbox" data-bind="checkedValue: $data, checked: $root.chosenItems" />
+<span data-bind="text: itemName"></span>
+<input type="button" value="查看" data-bind="click:$parent.look">
+<!-- /ko -->
+
+<script type="text/javascript">
+    var viewModel = {
+        items: ko.observableArray([
+            { itemName: 'Choice 1' },
+            { itemName: 'Choice 2' }
+        ]),
+        chosenItems: ko.observableArray(),
+        look:function (data) {
+            console.log(data);
+        }
+    };
+    ko.applyBindings(viewModel)
+</script>
+</body>
+</html>

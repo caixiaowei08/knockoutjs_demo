@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<p>Send me spam: <input type="checkbox" data-bind="checked: wantsSpam" /></p>
+<div data-bind="visible: wantsSpam">
+    Preferred flavor of spam:
+    <div><input type="radio" name="flavorGroup" value="cherry" data-bind="checked: spamFlavor" /> Cherry</div>
+    <div><input type="radio" name="flavorGroup" value="almond" data-bind="checked: spamFlavor" /> Almond</div>
+    <div><input type="radio" name="flavorGroup" value="msg" data-bind="checked: spamFlavor" /> Monosodium Glutamate</div>
+</div>
+
+<script type="text/javascript">
+    var viewModel = {
+        wantsSpam: ko.observable(true),
+        spamFlavor: ko.observable("almond") // Initially selects only the Almond radio button
+    };
+    // ... then later ...
+    viewModel.spamFlavor("msg"); // Now only Monosodium Glutamate is checked
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

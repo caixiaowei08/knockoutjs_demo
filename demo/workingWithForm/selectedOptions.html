@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<p>
+    Choose some countries you'd like to visit:
+    <select data-bind="options: availableCountries, selectedOptions: chosenCountries" size="5" multiple="true"></select>
+</p>
+
+<script type="text/javascript">
+    var viewModel = {
+        availableCountries : ko.observableArray(['France', 'Germany', 'Spain']),
+        chosenCountries : ko.observableArray(['Germany']) // Initially, only Germany is selected
+    };
+
+    // ... then later ...
+    //viewModel.chosenCountries.push('France'); // Now France is selected too
+    ko.applyBindings(viewModel)
+</script>
+</body>
+</html>

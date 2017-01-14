@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<input data-bind="hasFocus: isSelected" />
+<button data-bind="click: setIsSelected">Focus programmatically</button>
+<span data-bind="visible: isSelected">The textbox has focus</span>
+<script>
+    var viewModel = {
+        isSelected: ko.observable(false),
+        setIsSelected: function() { this.isSelected(true) }
+    };
+    ko.applyBindings(viewModel);
+</script>
+</body>
+</html>
