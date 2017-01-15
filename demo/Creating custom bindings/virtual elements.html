@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<ul>
+    <li class="heading">My heading</li>
+    <!-- ko foreach: items -->
+    <li data-bind="text: $data"></li>
+    <!-- /ko -->
+</ul>
+<script>
+ko.applyBindings({
+    items:["fasdf","fasdf","fasdf"]
+})
+</script>
+
+</body>
+</html>

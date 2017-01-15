@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body>
+<div data-bind="slideVisible: giftWrap, slideDuration:600">You have selected the option</div>
+<label><input type="checkbox" data-bind="checked: giftWrap" /> Gift wrap</label>
+<script>
+    ko.bindingHandlers.slideVisible = {
+        init: function(element, valueAccessor) {
+            var value = ko.unwrap(valueAccessor()); // Get the current value of the current property we're bound to
+            console.log(value);
+            $(element).toggle(value); // jQuery will hide/show the element depending on whether "value" or true or false
+        },
+        update: function(element, valueAccessor, allBindings) {
+            // Leave as before
+            var value = ko.unwrap(valueAccessor()); // Get the current value of the current property we're bound to
+            console.log(value);
+        }
+    };
+    var viewModel = {
+        giftWrap: ko.observable(true)
+    };
+    ko.applyBindings(viewModel);
+</script>
+
+</body>
+</html>

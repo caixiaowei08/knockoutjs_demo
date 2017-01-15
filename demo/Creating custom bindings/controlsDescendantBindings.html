@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<div data-bind="withProperties: { emotion: 'happy' }">
+    Today I feel <span data-bind="text: emotion"></span>. <!-- Displays: happy -->
+</div>
+<div data-bind="withProperties: { emotion: 'whimsical' }">
+    Today I feel <span data-bind="text: emotion"></span>. <!-- Displays: whimsical -->
+</div>
+<script>
+    ko.bindingHandlers.withProperties = {
+        init: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
+            var innerBindingContext = bindingContext.extend(valueAccessor);
+            console.log(innerBindingContext);
+            console.log(element);
+            ko.applyBindingsToDescendants(innerBindingContext, element);
+            return { controlsDescendantBindings: true };
+        }
+    };
+    ko.applyBindings();
+</script>
+</body>
+</html>

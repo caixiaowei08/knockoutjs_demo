@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<ul>
+    <div data-bind="randomOrder: true">
+        <div>First</div>
+        <div>Second</div>
+        <div>Third</div>
+    </div>
+</ul>
+<script>
+    ko.bindingHandlers.randomOrder = {
+        init: function(elem, valueAccessor) {
+            // Pull out each of the child elements into an array
+            var childElems = [];
+            while(elem.firstChild){
+                console.log(elem.firstChild);
+                childElems.push(elem.removeChild(elem.firstChild));
+            }
+            // Put them back in a random order
+
+            while(childElems.length) {
+                console.log(childElems.length);
+                var randomIndex = Math.floor(Math.random() * childElems.length);
+                var chosenChild = childElems.splice(randomIndex, 1);
+                console.log(randomIndex);
+                console.log(chosenChild);
+                elem.appendChild(chosenChild[0]);
+            }
+        }
+    };
+    ko.applyBindings()
+</script>
+
+</body>
+</html>

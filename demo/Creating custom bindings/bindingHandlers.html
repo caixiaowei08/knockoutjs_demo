@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../bower_components/knockout/dist/knockout.js"></script>
+</head>
+<body>
+<div data-bind="yourBindingName: someValue"> </div>
+
+<script>
+    ko.bindingHandlers.yourBindingName = {
+        init: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
+            // This will be called when the binding is first applied to an element
+            // Set up any initial state, event handlers, etc. here
+        },
+        update: function(element, valueAccessor, allBindings, viewModel, bindingContext) {
+            // This will be called once when the binding is first applied to an element,
+            // and again whenever any observables/computeds that are accessed change
+            // Update the DOM element based on the supplied values here.
+        }
+    };
+
+    ko.applyBindings({
+        someValue:ko.observable("aaaaa")
+    });
+</script>
+
+</body>
+</html>

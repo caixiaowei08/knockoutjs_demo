@@ -15,6 +15,7 @@
     "tests"
   ],
   "devDependencies": {
-    "knockout": "^3.4.1"
+    "knockout": "^3.4.1",
+    "jquery": "^3.1.1"
   }
 }
